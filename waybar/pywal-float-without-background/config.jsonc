@@ -124,22 +124,27 @@
     "backlight": {
         // "device": "acpi_video1",
         "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
+          "format-icons": ["󱩎 ", "󱩏 ", "󱩐 ", "󱩑 ", "󱩒 ", "󱩓 ", "󱩔 ", "󱩕 ", "󱩖 ", "󰛨 "],
     },
     "battery": {
+        "interval": 60,
+        "align": 0,
+        "rotate": 0,
+        "full-at": 100,
+        "design-capacity": false,
         "states": {
-            // "good": 95,
+            "good": 95,
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% 󱐋",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["󰂎", "󰁿", "󰂀", "󰂂", "󱊣"]
+        "format": "{icon}  {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": "  {capacity}%",
+        "format-full": "{icon}  Full",
+        "format-alt": "{icon}  {time}",
+        "format-icons": ["", "", "", "", ""],
+        "format-time": "{H}h {M}min",
+        "tooltip": true
     },
     "battery#bat2": {
         "bat": "BAT2"
