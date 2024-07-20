@@ -1,0 +1,388 @@
+@import '/home/idea/.cache/wal/colors-waybar.css';
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    color: @foreground;
+    transition-property: background-color;
+    transition-duration: .5s;
+    border-radius: 7px;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+#window {
+    background-color: @color5;
+    color: #000;
+    border-radius: 3px;
+}
+
+window#waybar.chromium {
+    background-color: #000000;
+    border: none;
+}
+#workspaces {
+    background: @background;
+    margin: 5px 1px 6px 1px;
+    padding: 0px 1px;
+    border-radius: 15px;
+    border: 0px;
+    font-weight: bold;
+    font-style: normal;
+    opacity: 0.8;
+    font-size: 16px;
+    color: @textcolor1;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    margin: 4px 3px;
+    border-radius: 15px;
+    border: 0px;
+    color: @textcolor1;
+    background-color: @color5;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.4;
+}
+
+#workspaces button.active {
+    color: @textcolor1;
+    background: @color5;
+    border-radius: 15px;
+    min-width: 40px;
+    transition: all 0.3s ease-in-out;
+    opacity:1.0;
+}
+
+#workspaces button:hover {
+    color: @textcolor1;
+    background: @color2;
+    border-radius: 15px;
+    opacity:0.7;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+#window,
+#workspaces {
+    margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#battery {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#battery.charging, #battery.plugged {
+    color: @color5;
+    background-color: @background;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+@keyframes blink {
+    to {
+        background-color: @background;
+        color: @color5;
+        border-radius: 15px;
+        margin: 3px;
+    }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#power-profiles-daemon {
+    padding-right: 15px;
+}
+
+#power-profiles-daemon.performance {
+    background-color: #f53c3c;
+    color: #ffffff;
+}
+
+#power-profiles-daemon.balanced {
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+#power-profiles-daemon.power-saver {
+    background-color: #2ecc71;
+    color: #000000;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#memory {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#disk {
+    background-color: @background;
+    color:@color5;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+#backlight {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#network {
+    background-color: @background;
+}
+
+#network.disconnected {
+    background-color: #f53c3c;
+}
+
+#pulseaudio {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#pulseaudio.muted {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#wireplumber {
+    background-color: #fff0f5;
+    color: #000000;
+}
+
+#wireplumber.muted {
+    background-color: #f53c3c;
+}
+
+#custom-media {
+    background-color: @background;
+    color: @color5;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#custom-media.custom-spotify {
+    background-color: #66cc99;
+}
+
+#custom-media.custom-vlc {
+    background-color: #ffa000;
+}
+
+#temperature {
+    background-color: #f0932b;
+}
+
+#temperature.critical {
+    background-color: #eb4d4b;
+}
+
+#tray {
+    background-color: @background;
+    border-radius: 15px;
+    margin: 3px;
+   
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #eb4d4b;
+}
+
+#idle_inhibitor {
+    background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+}
+
+#mpd {
+    background-color: #66cc99;
+    color: #2a5c45;
+}
+
+#mpd.disconnected {
+    background-color: #f53c3c;
+}
+
+#mpd.stopped {
+    background-color: #90b1b1;
+}
+
+#mpd.paused {
+    background-color: #51a37a;
+}
+
+#language {
+    background: #00b093;
+    color: #740864;
+    padding: 0 5px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state {
+    background: #97e1ad;
+    color: #000000;
+    padding: 0 0px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state > label {
+    padding: 0 5px;
+}
+
+#keyboard-state > label.locked {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad.empty {
+	background-color: transparent;
+}
+
+#privacy {
+    padding: 0;
+}
+
+#privacy-item {
+    padding: 0 5px;
+    color: white;
+}
+
+#privacy-item.screenshare {
+    background-color: #cf5700;
+}
+
+#privacy-item.audio-in {
+    background-color: #1ca000;
+}
+
+#privacy-item.audio-out {
+    background-color: #0069d4;
+}
+#custom-power-menu {
+    background-color: @color5;
+    color : #000000;
+    border-radius: 15px;
+    margin: 4px;
+}
+#custom-wall {
+    background-color: @color5;
+    color : #000000;
+    border-radius: 15px;
+    margin: 4px;
+}
+#custom-start {
+    background-color: @color5;
+    color : #000000;
+    border-radius: 15px;
+    margin:2px;
+}
+#custom-waybar-theme {
+     background: @color5;
+     color: #000000;
+     border-radius: 15px;
+     margin:4px;
+}
+#custom-updates {
+  background: @background;
+  color: @color5;
+  border-radius: 15px;
+  margin: 4px;
+}
+
+
