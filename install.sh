@@ -21,6 +21,7 @@ PACKAGES=(
     "ttf-jetbrains-mono-nerd"
     "swww"
     "git"
+    "papirus-icon-theme"
 )
 
 # Function to install yay
