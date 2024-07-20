@@ -12,7 +12,7 @@ padding=24
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
-font=CartographCF Nerd Font 11
+font=JetBrainsMono Nerd Font 11
 
 [urgency=high]
 default-timeout=0
