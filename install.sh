@@ -59,6 +59,8 @@ copy_config() {
     cp -r "$DOTFILES_DIR/.zshrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/wallpaper" "/home/$USER"
     wal -i /home/$USER/wallpaper/0001.jpg
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 }
 # install gtk theme
 install_gtk_theme() {
