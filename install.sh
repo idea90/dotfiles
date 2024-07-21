@@ -21,7 +21,6 @@ PACKAGES=(
     "ttf-jetbrains-mono-nerd"
     "swww"
     "git"
-    "papirus-icon-theme"
 )
 
 # Function to install yay
@@ -50,18 +49,16 @@ install_packages() {
 copy_config() {
     echo "Copying config from $DOTFILES_DIR to $TARGET_DIR"
     rm -rf .config/hypr
-    cp -r "$DOTFILES_DIR/hypr" "$TARGET_DIR"
-    cp -r "$DOTFILES_DIR/waybar" "$TARGET_DIR"
-    cp -r "$DOTFILES_DIR/rofi" "$TARGET_DIR"
-    cp -r "$DOTFILES_DIR/mako" "$TARGET_DIR"
-    cp -r "$DOTFILES_DIR/wlogout" "$TARGET_DIR"
-    cp -r "$DOTFILES_DIR/swaylock" "$TARGET_DIR"
+    ln -s "$DOTFILES_DIR/hypr" "$HOME/.config/hypr"
+    ln -s "$DOTFILES_DIR/waybar" "$HOME/.config/waybar"
+    ln -s "$DOTFILES_DIR/rofi" "$HOME/.config/rofi"
+    ln -s "$DOTFILES_DIR/mako" "$HOME/.config/mako"
+    ln -s "$DOTFILES_DIR/wlogout" "$HOME/.config/wlogout"
+    ln -s "$DOTFILES_DIR/swaylock" "$HOME/.config/swaylock"
     cp -r "$DOTFILES_DIR/.vimrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/.zshrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/wallpaper" "/home/$USER"
     wal -i /home/$USER/wallpaper/0001.jpg
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 }
 # install gtk theme
 install_gtk_theme() {
