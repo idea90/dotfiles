@@ -24,6 +24,8 @@ PACKAGES=(
     "xed"
     "nwg-look"
     "papirus-icon-theme"
+    "tty-clock"
+    "cava"
 )
 
 # Function to install yay
