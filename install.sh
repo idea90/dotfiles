@@ -21,6 +21,9 @@ PACKAGES=(
     "ttf-jetbrains-mono-nerd"
     "swww"
     "git"
+    "xed"
+    "nwg-look"
+    "papirus-icon-theme"
 )
 
 # Function to install yay
@@ -54,10 +57,11 @@ copy_config() {
     ln -s "$DOTFILES_DIR/rofi" "$HOME/.config/rofi"
     ln -s "$DOTFILES_DIR/mako" "$HOME/.config/mako"
     ln -s "$DOTFILES_DIR/wlogout" "$HOME/.config/wlogout"
-    ln -s "$DOTFILES_DIR/swaylock" "$HOME/.config/swaylock"
+    ln -s "$DOTFILES_DIR/alacritty" "$HOME/.config/alacritty"
     cp -r "$DOTFILES_DIR/.vimrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/.zshrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/wallpaper" "/home/$USER"
+    git clone https://gitlab.com/dwt1/wallpapers.git
     wal -i /home/$USER/wallpaper/0001.jpg
 }
 # install gtk theme
