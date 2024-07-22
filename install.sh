@@ -26,6 +26,7 @@ PACKAGES=(
     "papirus-icon-theme"
     "tty-clock"
     "cava"
+    "sddm"
 )
 
 # Function to install yay
@@ -66,6 +67,7 @@ copy_config() {
     git clone https://gitlab.com/dwt1/wallpapers.git
     wal -i /home/$USER/wallpaper/0001.jpg
     git clone https://gitlab.com/dwt1/wallpapers.git /home/$USER
+    sudo systemctl enable sddm
 }
 # install gtk theme
 install_gtk_theme() {
