@@ -22,13 +22,10 @@ PACKAGES=(
     "swww"
     "git"
     "xed"
-<<<<<<< HEAD
-=======
     "nwg-look"
     "papirus-icon-theme"
     "tty-clock"
     "cava"
->>>>>>> 1391736121b6c6829214a14863d1ec6c8f9e288a
 )
 
 # Function to install yay
