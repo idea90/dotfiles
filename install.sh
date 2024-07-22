@@ -21,6 +21,7 @@ PACKAGES=(
     "ttf-jetbrains-mono-nerd"
     "swww"
     "git"
+    "xed"
 )
 
 # Function to install yay
@@ -54,11 +55,12 @@ copy_config() {
     ln -s "$DOTFILES_DIR/rofi" "$HOME/.config/rofi"
     ln -s "$DOTFILES_DIR/mako" "$HOME/.config/mako"
     ln -s "$DOTFILES_DIR/wlogout" "$HOME/.config/wlogout"
-    ln -s "$DOTFILES_DIR/swaylock" "$HOME/.config/swaylock"
+    ln -s "$DOTFILES_DIR/alacritty" "$HOME/.config/alacritty"
     cp -r "$DOTFILES_DIR/.vimrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/.zshrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/wallpaper" "/home/$USER"
     wal -i /home/$USER/wallpaper/0001.jpg
+    git clone https://gitlab.com/dwt1/wallpapers.git /home/$USER
 }
 # install gtk theme
 install_gtk_theme() {
@@ -66,7 +68,7 @@ install_gtk_theme() {
     git clone https://github.com/vinceliuice/Graphite-gtk-theme.git
     cd Graphite-gtk-theme
     ./install.sh --tweaks black
-    rm -rf Graphite-gtk-theme
+    rm -rf /home/$USER/dotfiles/Graphite-gtk-theme
 }
 
 
