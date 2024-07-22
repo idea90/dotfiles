@@ -64,10 +64,14 @@ copy_config() {
     cp -r "$DOTFILES_DIR/.vimrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/.zshrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/wallpaper" "/home/$USER"
-    git clone https://gitlab.com/dwt1/wallpapers.git
     wal -i /home/$USER/wallpaper/0001.jpg
     git clone https://gitlab.com/dwt1/wallpapers.git /home/$USER
     sudo systemctl enable sddm
+    git clone https://github.com/jluttine/rofi-power-menu.git
+    cd rofi-power-menu
+    sudo cp -r rofi-power-menu /bin
+    cd ..
+    rm -rf rofi-power-menu
 }
 # install gtk theme
 install_gtk_theme() {

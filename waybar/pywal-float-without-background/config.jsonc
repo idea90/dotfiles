@@ -200,7 +200,7 @@ oth": "{volume}% {icon} {format_source}",
     },
     "custom/power-menu": {
         "format": " ⏻ ",
-        "on-click": "wlogout"
+        "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu"
     },
     "custom/wall": {
         "format": "   ",
