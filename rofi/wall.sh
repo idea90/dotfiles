@@ -11,7 +11,7 @@ SCRIPT_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 || exit; pwd -P )"
 ROFI_CMD="${ROFI_CMD:-rofi -dmenu -i}"
 ROFI_CONFIG_DIR="${ROFI_CONFIG_DIR:-$SCRIPT_PATH/config}"
 WALLPAPERS_DIR="${WALLPAPERS_DIR:-$HOME/wallpaper}"
-WALLPAPER_CACHE="$ROFI_CONFIG_DIR/wallpaper"
+WALLPAPER_CACHE="$ROFI_CONFIG_DIR/wallpapers"
 GRID_ROWS=${GRID_ROWS:-2}   # Number of rows
 GRID_COLS=${GRID_COLS:-6}   # Number of columns
 
@@ -22,20 +22,6 @@ build_theme() {
     icon_size=6  # Size of the icon
     echo "element {orientation: vertical;} element-text {horizontal-align: 0.5;} element-icon {size: ${icon_size}.0000em;} listview {lines: ${rows}; columns: ${cols};}"
 }
-
-# Function to check if swww-daemon is running
-check_swww_daemon() {
-    if ! pgrep -x "swww-daemon" > /dev/null; then
-        echo "swww-daemon is not running. Starting swww-daemon with --format xrgb..."
-        swww-daemon --format xrgb &
-        sleep 1  # Allow some time for the daemon to start
-        if ! pgrep -x "swww-daemon" > /dev/null; then
-            echo "Failed to start swww-daemon."
-            exit 1
-        fi
-    fi
-}
-
 # Check if swww-daemon is running
 check_swww_daemon
 
@@ -92,6 +78,8 @@ if swww img "$selected_wallpaper" \
 
     # Send a notification that the wallpaper and color have changed
     notify-send "Wallpaper and Color Changed" "The wallpaper has changed and the color scheme has been applied."
+ 
+    pywalfox update
 
     # Restart Waybar to apply the new color scheme
     killall -SIGUSR2 waybar

@@ -1,0 +1,152 @@
+[2024-07-09 20:12:25.966] [info] Using configuration file config.jsonc
+[2024-07-09 20:12:25.970] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 20:12:25.970] [info] Using CSS file style.css
+[2024-07-09 20:12:25.981] [info] Hyprland IPC starting
+[2024-07-09 20:12:25.984] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 20:12:25.985] [warning] module : Unknown module: 
+[2024-07-09 20:12:26.198] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Terminated
+[2024-07-09 20:15:43.993] [info] Using configuration file config.jsonc
+[2024-07-09 20:15:43.995] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 20:15:43.995] [info] Using CSS file style.css
+
+(waybar:81198): Gtk-WARNING **: 20:15:43.996: Theme parsing error: style.css:37:20: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 20:15:44.005] [info] Hyprland IPC starting
+[2024-07-09 20:15:44.008] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 20:15:44.008] [warning] module : Unknown module: 
+[2024-07-09 20:15:44.181] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Terminated
+[2024-07-09 20:17:50.376] [info] Using configuration file config.jsonc
+[2024-07-09 20:17:50.378] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 20:17:50.378] [info] Using CSS file style.css
+
+(waybar:81321): Gtk-WARNING **: 20:17:50.379: Theme parsing error: style.css:37:20: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 20:17:50.387] [info] Hyprland IPC starting
+[2024-07-09 20:17:50.390] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 20:17:50.391] [warning] module : Unknown module: 
+[2024-07-09 20:17:50.571] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Terminated
+[2024-07-09 20:19:12.268] [info] Using configuration file config.jsonc
+[2024-07-09 20:19:12.271] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 20:19:12.271] [info] Using CSS file style.css
+
+(waybar:81418): Gtk-WARNING **: 20:19:12.272: Theme parsing error: style.css:37:20: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 20:19:12.280] [info] Hyprland IPC starting
+[2024-07-09 20:19:12.283] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 20:19:12.283] [warning] module : Unknown module: 
+[2024-07-09 20:19:12.463] [warning] Requested height: 30 is less than the minimum height: 36 required by the modules
+[2024-07-09 20:19:12.463] [info] Bar configured (width: 1366, height: 36) for output: eDP-1
+Terminated
+[2024-07-09 20:20:25.025] [info] Using configuration file config.jsonc
+[2024-07-09 20:20:25.027] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 20:20:25.027] [info] Using CSS file style.css
+
+(waybar:81520): Gtk-WARNING **: 20:20:25.027: Theme parsing error: style.css:37:20: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 20:20:25.036] [info] Hyprland IPC starting
+[2024-07-09 20:20:25.039] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 20:20:25.039] [warning] module : Unknown module: 
+[2024-07-09 20:20:25.214] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Terminated
+[2024-07-09 20:38:55.629] [info] Using configuration file config.jsonc
+[2024-07-09 20:38:55.635] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 20:38:55.635] [info] Using CSS file style.css
+
+(waybar:82473): Gtk-WARNING **: 20:38:55.636: Theme parsing error: style.css:37:20: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 20:38:55.661] [error] style.css:196:0expected ':'
+waybar: no process found
+[2024-07-09 20:46:23.733] [info] Using configuration file config.jsonc
+[2024-07-09 20:46:23.736] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 20:46:23.736] [info] Using CSS file style.css
+
+(waybar:82600): Gtk-WARNING **: 20:46:23.737: Theme parsing error: style.css:211:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 20:46:23.747] [info] Hyprland IPC starting
+[2024-07-09 20:46:23.750] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 20:46:23.750] [warning] module : Unknown module: 
+[2024-07-09 20:46:23.932] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Gdk-Message: 20:49:53.810: Lost connection to Wayland compositor.
+[2024-07-09 21:00:48.765] [info] Using configuration file config.jsonc
+[2024-07-09 21:00:48.768] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 21:00:48.768] [info] Using CSS file style.css
+
+(waybar:83647): Gtk-WARNING **: 21:00:48.768: Theme parsing error: style.css:211:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 21:00:48.778] [info] Hyprland IPC starting
+[2024-07-09 21:00:48.781] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 21:00:48.781] [warning] module : Unknown module: 
+[2024-07-09 21:00:48.958] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Terminated
+[2024-07-09 21:11:08.657] [info] Using configuration file config.jsonc
+[2024-07-09 21:11:08.659] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 21:11:08.660] [info] Using CSS file style.css
+
+(waybar:84353): Gtk-WARNING **: 21:11:08.660: Theme parsing error: style.css:211:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 21:11:08.671] [info] Hyprland IPC starting
+[2024-07-09 21:11:08.675] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 21:11:08.675] [warning] module : Unknown module: 
+[2024-07-09 21:11:08.866] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Terminated
+[2024-07-09 21:12:10.992] [info] Using configuration file config.jsonc
+[2024-07-09 21:12:10.995] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 21:12:10.995] [info] Using CSS file style.css
+
+(waybar:84457): Gtk-WARNING **: 21:12:10.996: Theme parsing error: style.css:211:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 21:12:11.007] [info] Hyprland IPC starting
+[2024-07-09 21:12:11.010] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 21:12:11.010] [warning] module : Unknown module: 
+[2024-07-09 21:12:11.199] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Terminated
+[2024-07-09 21:12:43.086] [info] Using configuration file config.jsonc
+[2024-07-09 21:12:43.088] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 21:12:43.088] [info] Using CSS file style.css
+
+(waybar:84549): Gtk-WARNING **: 21:12:43.089: Theme parsing error: style.css:211:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 21:12:43.102] [info] Hyprland IPC starting
+[2024-07-09 21:12:43.106] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 21:12:43.106] [warning] module : Unknown module: 
+[2024-07-09 21:12:43.291] [info] Bar configured (width: 1366, height: 30) for output: eDP-1
+Terminated
+[2024-07-09 21:13:48.618] [info] Using configuration file config.jsonc
+[2024-07-09 21:13:48.620] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 21:13:48.620] [info] Using CSS file style.css
+
+(waybar:84646): Gtk-WARNING **: 21:13:48.621: Theme parsing error: style.css:213:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 21:13:48.634] [info] Hyprland IPC starting
+[2024-07-09 21:13:48.637] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 21:13:48.637] [warning] module : Unknown module: 
+[2024-07-09 21:13:48.806] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-09 21:13:48.806] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+Terminated
+[2024-07-09 21:16:10.443] [info] Using configuration file config.jsonc
+[2024-07-09 21:16:10.446] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 21:16:10.446] [info] Using CSS file style.css
+
+(waybar:84838): Gtk-WARNING **: 21:16:10.447: Theme parsing error: style.css:213:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 21:16:10.456] [info] Hyprland IPC starting
+[2024-07-09 21:16:10.459] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 21:16:10.460] [warning] module : Unknown module: 
+[2024-07-09 21:16:10.644] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-09 21:16:10.644] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+Terminated
+[2024-07-09 21:18:41.966] [info] Using configuration file config.jsonc
+[2024-07-09 21:18:41.969] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-09 21:18:41.969] [info] Using CSS file style.css
+
+(waybar:85145): Gtk-WARNING **: 21:18:42.025: Theme parsing error: style.css:213:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-09 21:18:42.034] [info] Hyprland IPC starting
+[2024-07-09 21:18:42.038] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-09 21:18:42.038] [warning] module : Unknown module: 
+[2024-07-09 21:18:42.212] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-09 21:18:42.212] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-09 21:23:07.473] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-09 21:23:07.487] [info] Loading persistent workspaces from Hyprland workspace rules
+Gdk-Message: 21:40:42.416: Error reading events from display: Broken pipe
+[2024-07-22 10:12:46.579] [info] Using configuration file config.jsonc
+[2024-07-22 10:12:46.582] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-22 10:12:46.582] [info] Using CSS file style.css
+
+(waybar:4363): Gtk-WARNING **: 10:12:46.582: Theme parsing error: style.css:213:12: Not using units is deprecated. Assuming 'px'.
+[2024-07-22 10:12:46.591] [info] Hyprland IPC starting
+[2024-07-22 10:12:46.594] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-22 10:12:46.595] [warning] module : Unknown module: 
+[2024-07-22 10:12:46.763] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-22 10:12:46.763] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+Gdk-Message: 10:13:36.899: Lost connection to Wayland compositor.
