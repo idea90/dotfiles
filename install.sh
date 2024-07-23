@@ -63,9 +63,9 @@ copy_config() {
     ln -s "$DOTFILES_DIR/alacritty" "$HOME/.config/alacritty"
     cp -r "$DOTFILES_DIR/.vimrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/.zshrc" "/home/$USER"
-    cp -r "$DOTFILES_DIR/wallpaper" "/home/$USER"
     git clone https://gitlab.com/dwt1/wallpapers.git /home/$USER
-    wal -i /home/$USER/wallpaper/0001.jpg
+    cp -r "$DOTFILES_DIR/wallpapers" "/home/$USER"
+    wal -i /home/$USER/wallpapers/0001.jpg
     sudo systemctl enable sddm
     git clone https://github.com/jluttine/rofi-power-menu.git
     cd rofi-power-menu
