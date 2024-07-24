@@ -12970,3 +12970,49 @@ waybar: no process found
 [2024-07-11 20:45:01.234] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
 [2024-07-11 20:45:01.234] [info] Using CSS file style.css
 [2024-07-11 20:45:01.239] [error] style.css:1:50Failed to import: Error opening file /home/idea/.cache/wal/colors-waybar.css: No such file or directory
+waybar: no process found
+[2024-07-24 18:00:53.458] [info] Using configuration file config.jsonc
+[2024-07-24 18:00:53.459] [error] Error parsing JSON: * Line 18, Column 9
+  Missing ',' or ']' in array declaration
+
+waybar: no process found
+[2024-07-24 20:12:05.446] [info] Using configuration file config.jsonc
+[2024-07-24 20:12:05.448] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-24 20:12:05.448] [info] Using CSS file style.css
+[2024-07-24 20:12:05.457] [info] Hyprland IPC starting
+[2024-07-24 20:12:05.460] [info] Loading persistent workspaces from Waybar config
+[2024-07-24 20:12:05.460] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-24 20:12:05.460] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-24 20:12:05.466] [error] updates stopped unexpectedly, is it endless?
+[2024-07-24 20:12:05.640] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-24 20:12:05.640] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+Terminated
+[2024-07-24 20:12:40.968] [info] Using configuration file config.jsonc
+[2024-07-24 20:12:40.970] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-24 20:12:40.970] [info] Using CSS file style.css
+[2024-07-24 20:12:40.983] [info] Hyprland IPC starting
+[2024-07-24 20:12:40.987] [info] Loading persistent workspaces from Waybar config
+[2024-07-24 20:12:40.987] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-24 20:12:40.988] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-24 20:12:40.998] [error] updates stopped unexpectedly, is it endless?
+[2024-07-24 20:12:41.175] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-24 20:12:41.175] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+Terminated
+[2024-07-24 20:14:12.659] [info] Using configuration file config.jsonc
+[2024-07-24 20:14:12.659] [error] Error parsing JSON: * Line 124, Column 34
+  Missing ',' or '}' in object declaration
+
+waybar: no process found
+[2024-07-24 20:16:59.806] [info] Using configuration file config.jsonc
+[2024-07-24 20:16:59.808] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-24 20:16:59.808] [info] Using CSS file style.css
+[2024-07-24 20:16:59.817] [info] Hyprland IPC starting
+[2024-07-24 20:16:59.820] [info] Loading persistent workspaces from Waybar config
+[2024-07-24 20:16:59.821] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-24 20:16:59.821] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-24 20:16:59.827] [error] updates stopped unexpectedly, is it endless?
+[2024-07-24 20:16:59.986] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-24 20:16:59.986] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
