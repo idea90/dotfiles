@@ -13016,3 +13016,28 @@ sh: line 1: waybar-module-pacman-updates: command not found
 [2024-07-24 20:16:59.827] [error] updates stopped unexpectedly, is it endless?
 [2024-07-24 20:16:59.986] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
 [2024-07-24 20:16:59.986] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+
+(process:12123): Helpers.IconFetcher-WARNING **: 20:49:39.232: Failed to load image: |/home/idea/wallpaper/README.md| 108 108 Couldn’t recognize the image file format for file “/home/idea/wallpaper/README.md” ((nil))
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37m0038.jpg[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Generating a colorscheme.
+[[1;32mI[0m] [1;31mcolors[0m: Using wal backend.
+[[1;33mW[0m] [1;31mwal[0m: magick convert failed, using only magick
+[[1;32mI[0m] [1;31mcolors[0m: Generation complete.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+/home/idea/.config/rofi/wall.sh: line 82: pywalfox: command not found
+[2024-07-24 20:49:45.749] [info] Reloading...
+[2024-07-24 20:49:45.769] [info] Using configuration file config.jsonc
+[2024-07-24 20:49:45.771] [info] Using CSS file style.css
+[2024-07-24 20:49:45.790] [info] Loading persistent workspaces from Waybar config
+[2024-07-24 20:49:45.790] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-24 20:49:45.791] [warning] module : Unknown module: 
+[2024-07-24 20:49:45.966] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-24 20:49:45.966] [info] Bar configured (width: 1366, height: 32) for output: eDP-1

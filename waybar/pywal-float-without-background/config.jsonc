@@ -14,8 +14,8 @@
         ""
     ],
     "modules-right": [
-        "custom/updates",
         "custom/wall",
+        "custom/updates",
         "cpu",
         "memory",
         "pulseaudio",
