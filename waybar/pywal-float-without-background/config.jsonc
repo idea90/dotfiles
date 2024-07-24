@@ -132,7 +132,7 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon} <span foreground=\"#ffffff\">{capacity}%</span>",
+    "format": "{icon} {capacity}%",
     "format-charging": "{icon}󱐋 {capacity}%",
     "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     "max-length": 25,
