@@ -8,17 +8,17 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
-        "custom/updates",
-        "cpu",
-        "memory",
-        "pulseaudio",
 
     ],
     "modules-center": [
         ""
     ],
     "modules-right": [
+        "custom/updates"
         "custom/wall",
+        "cpu",
+        "memory",
+        "pulseaudio",
         "backlight",
         "battery",
         "clock",
