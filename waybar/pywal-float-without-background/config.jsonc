@@ -8,7 +8,10 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
-        "custom/media",
+        "custom/updates",
+        "cpu",
+        "memory",
+        "pulseaudio",
 
     ],
     "modules-center": [
@@ -16,10 +19,6 @@
     ],
     "modules-right": [
         "custom/wall",
-        "custom/updates",
-        "cpu",
-        "memory",
-        "pulseaudio",
         "backlight",
         "battery",
         "clock",
