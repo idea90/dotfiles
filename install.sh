@@ -63,7 +63,7 @@ copy_config() {
     ln -s "$DOTFILES_DIR/alacritty" "$HOME/.config/alacritty"
     cp -r "$DOTFILES_DIR/.vimrc" "/home/$USER"
     cp -r "$DOTFILES_DIR/.zshrc" "/home/$USER"
-    git clone https://gitlab.com/dwt1/wallpapers.git /home/$USER
+    git clone https://gitlab.com/dwt1/wallpapers.git
     cp -r "$DOTFILES_DIR/wallpapers" "/home/$USER"
     wal -i /home/$USER/wallpapers/0001.jpg
     sudo systemctl enable sddm
