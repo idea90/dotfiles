@@ -26,6 +26,6 @@ cd ~/dotfiles
 Contributions are welcome! If you have suggestions for improvements or additional configurations, feel free to open a pull request or create an issue.
 
 ## support me
-give this repo a start
+give this repo a star
 
 
