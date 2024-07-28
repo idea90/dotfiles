@@ -18,13 +18,14 @@ git clone https://github.com/idea90/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 ```````
-#screenshot
-![20240728_14h42m41s_grim](https://github.com/user-attachments/assets/b4ee43df-8d41-4551-a59a-0d0d61f8c11c)
-#contributing
+##screenshot
+![20240728_14h56m36s_grim](https://github.com/user-attachments/assets/edf9a07b-906d-4084-add5-3ea1c11d193c)
+
+##contributing
 
 Contributions are welcome! If you have suggestions for improvements or additional configurations, feel free to open a pull request or create an issue.
 
-#support me
+##support me
 give this repo a start
 
 
