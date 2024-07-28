@@ -18,3 +18,5 @@ To install these dotfiles, clone this repository to your home directory. Before 
 git clone https://github.com/idea90/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
+
+#screenshot
