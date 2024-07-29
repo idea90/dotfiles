@@ -22,7 +22,7 @@
         "backlight",
         "battery",
         "clock",
-        "custom/power-menu",
+        "group/group-power",
     ],
     // Modules configuration
     "hyprland/workspaces" : {
@@ -188,10 +188,6 @@ oth": "{volume}% {icon} {format_source}",
         "on-scroll-up": "playerctl next",
         "on-scroll-down": "playerctl previous"
     },
-    "custom/power-menu": {
-        "format": " ⏻ ",
-        "on-click": "rofi -show power-menu -modi power-menu:rofi-power-menu"
-    },
     "custom/wall": {
         "format": "   ",
         "on-click": "~/.config/rofi/wall.sh"
@@ -211,5 +207,39 @@ oth": "{volume}% {icon} {format_source}",
        "exec-if": "which waybar-module-pacman-updates",
        "exec": "waybar-module-pacman-updates  --interval-seconds 5 --network-interval-seconds 300"
    },
+    "group/group-power": {
+    "orientation": "inherit",
+    "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": false,
     },
+    "modules": [
+        "custom/power", // First element is the "group leader" and won't ever be hidden
+        "custom/quit",
+        "custom/lock",
+        "custom/reboot",
+    ]
+},
+"custom/quit": {
+    "format": " 󰗼 ",
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exit"
+},
+"custom/lock": {
+    "format": " 󰍁 ",
+    "tooltip": false,
+    "on-click": "swaylock"
+},
+"custom/reboot": {
+    "format": " 󰜉 ",
+    "tooltip": false,
+    "on-click": "reboot"
+},
+"custom/power": {
+    "format": "  ",
+    "tooltip": false,
+    "on-click": "shutdown now"
+},
+  },
 

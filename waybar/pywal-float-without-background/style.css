@@ -384,5 +384,27 @@ label:focus {
   border-radius: 15px;
   margin: 4px;
 }
-
-
+#custom-quit {
+  background: @background;
+  color: @color5;
+  border-radius: 15px;
+  margin: 4px;
+}
+#custom-lock {
+  background: @background;
+  color: @color5;
+  border-radius: 15px;
+  margin: 4px;
+}
+#custom-reboot {
+  background: @background;
+  color: @color5;
+  border-radius: 15px;
+  margin: 4px;
+}
+#custom-power {
+  background: @background;
+  color: @color5;
+  border-radius: 15px;
+  margin: 4px;
+}

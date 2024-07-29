@@ -90,14 +90,4 @@ install_yay
 install_packages
 copy_config
 install_gtk_theme
-
-read -p "Would you like to reboot the system now? (y/n): " answer
-case ${answer:0:1} in
-    y|Y )
-        echo "Rebooting the system..."
-        sudo reboot
-    ;;
-    * )
-        echo "Please reboot the system manually to apply all changes."
-    ;;
-esac
+sudo reboot
