@@ -11,12 +11,12 @@ This repository contains my personal configuration files (dotfiles) for various 
 
 ## Installation
 
-To install these dotfiles, clone this repository to your home directory. Before proceeding, ensure you backup your existing dotfiles.
+To install these dotfiles, clone this repository to your home directory. Before proceeding, ensure you backup your existing config.
 
 ```bash
-git clone https://github.com/idea90/dotfiles.git ~/dotfiles
+git clone https://github.com/idea90/dotfiles.git
 cd ~/dotfiles
-./install.sh
+bash ./install.sh
 ```````
 ## screenshot
 ![20240728_14h56m36s_grim](https://github.com/user-attachments/assets/edf9a07b-906d-4084-add5-3ea1c11d193c)
