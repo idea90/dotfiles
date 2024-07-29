@@ -106,7 +106,7 @@
         "format-alt": "{:%a %b %d, %G}"
     },
     "cpu": {
-        "format": "{usage}%   ",
+        "format": "{usage}%  ",
         "tooltip": false
     },
     "memory": {
