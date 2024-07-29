@@ -27,6 +27,7 @@ PACKAGES=(
     "tty-clock"
     "cava"
     "sddm"
+    "noto-fonts-cjk"
 )
 
 # Function to install yay
