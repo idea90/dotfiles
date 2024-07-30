@@ -90,4 +90,4 @@ install_yay
 install_packages
 copy_config
 install_gtk_theme
-sudo reboot
+

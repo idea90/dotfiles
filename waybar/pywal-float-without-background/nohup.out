@@ -13096,3 +13096,444 @@ find: warning: unrecognized escape `\x'
 [2024-07-24 21:08:10.662] [warning] module : Unknown module: 
 [2024-07-24 21:08:10.813] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
 [2024-07-24 21:08:10.813] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:37:01.221] [info] Using configuration file config.jsonc
+[2024-07-30 08:37:01.245] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:37:01.245] [info] Using CSS file style.css
+[2024-07-30 08:37:01.255] [info] Hyprland IPC starting
+[2024-07-30 08:37:01.260] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:37:01.260] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:37:01.260] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:37:01.272] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:37:01.427] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:37:01.428] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:37:08.164] [info] Quitting.
+./launch.sh: line 10: 10602 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:37:11.734] [info] Using configuration file config.jsonc
+[2024-07-30 08:37:11.736] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:37:11.736] [info] Using CSS file style.css
+[2024-07-30 08:37:11.746] [info] Hyprland IPC starting
+[2024-07-30 08:37:11.750] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:37:11.750] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:37:11.750] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:37:11.758] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:37:11.918] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:37:11.918] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:37:42.115] [info] Quitting.
+./launch.sh: line 10: 10673 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:37:44.851] [info] Using configuration file config.jsonc
+[2024-07-30 08:37:44.853] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:37:44.853] [info] Using CSS file style.css
+[2024-07-30 08:37:44.864] [info] Hyprland IPC starting
+[2024-07-30 08:37:44.867] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:37:44.867] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:37:44.868] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:37:44.877] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:37:45.032] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:37:45.032] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:37:48.298] [info] Quitting.
+./launch.sh: line 10: 10750 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:37:50.906] [info] Using configuration file config.jsonc
+[2024-07-30 08:37:50.909] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:37:50.909] [info] Using CSS file style.css
+[2024-07-30 08:37:50.919] [info] Hyprland IPC starting
+[2024-07-30 08:37:50.923] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:37:50.923] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:37:50.924] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:37:50.933] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:37:51.098] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:37:51.098] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:38:27.953] [info] Quitting.
+./launch.sh: line 10: 10824 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:38:30.405] [info] Using configuration file config.jsonc
+[2024-07-30 08:38:30.408] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:38:30.408] [info] Using CSS file style.css
+[2024-07-30 08:38:30.418] [info] Hyprland IPC starting
+[2024-07-30 08:38:30.421] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:38:30.421] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:38:30.422] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:38:30.431] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:38:30.591] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:38:30.591] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:38:49.565] [info] Quitting.
+./launch.sh: line 10: 10899 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:38:52.650] [info] Using configuration file config.jsonc
+[2024-07-30 08:38:52.653] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:38:52.653] [info] Using CSS file style.css
+[2024-07-30 08:38:52.664] [info] Hyprland IPC starting
+[2024-07-30 08:38:52.668] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:38:52.668] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:38:52.668] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:38:52.678] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:38:52.834] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:38:52.834] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+[2024-07-30 08:39:25.504] [info] Quitting.
+./launch.sh: line 10: 10989 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:39:28.691] [info] Using configuration file config.jsonc
+[2024-07-30 08:39:28.694] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:39:28.694] [info] Using CSS file style.css
+[2024-07-30 08:39:28.704] [info] Hyprland IPC starting
+[2024-07-30 08:39:28.708] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:39:28.708] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:39:28.708] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:39:28.718] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:39:28.871] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:39:28.871] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:40:40.024] [info] Quitting.
+./launch.sh: line 10: 11083 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:40:42.359] [info] Using configuration file config.jsonc
+[2024-07-30 08:40:42.362] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:40:42.362] [info] Using CSS file style.css
+[2024-07-30 08:40:42.373] [info] Hyprland IPC starting
+[2024-07-30 08:40:42.376] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:40:42.377] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:40:42.377] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:40:42.388] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:40:42.541] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:40:42.541] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:41:07.756] [info] Quitting.
+./launch.sh: line 10: 11172 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:41:11.922] [info] Using configuration file config.jsonc
+[2024-07-30 08:41:11.925] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:41:11.925] [info] Using CSS file style.css
+[2024-07-30 08:41:11.942] [info] Hyprland IPC starting
+[2024-07-30 08:41:11.943] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:41:11.943] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:41:11.944] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:41:11.968] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:41:12.125] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:41:12.125] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 08:41:49.423] [info] Quitting.
+./launch.sh: line 10: 11250 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 08:41:53.313] [info] Using configuration file config.jsonc
+[2024-07-30 08:41:53.316] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 08:41:53.316] [info] Using CSS file style.css
+[2024-07-30 08:41:53.325] [info] Hyprland IPC starting
+[2024-07-30 08:41:53.329] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 08:41:53.329] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 08:41:53.329] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 08:41:53.339] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 08:41:53.489] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 08:41:53.489] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 09:10:49.812] [info] Quitting.
+./launch.sh: line 10: 11314 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 09:10:52.896] [info] Using configuration file config.jsonc
+[2024-07-30 09:10:52.900] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 09:10:52.900] [info] Using CSS file style.css
+[2024-07-30 09:10:52.912] [info] Hyprland IPC starting
+[2024-07-30 09:10:52.915] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 09:10:52.915] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 09:10:52.916] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 09:10:52.933] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 09:10:53.108] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 09:10:53.108] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37mapple-waves1.jpg[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Generating a colorscheme.
+[[1;32mI[0m] [1;31mcolors[0m: Using wal backend.
+[2024-07-30 09:11:40.689] [info] Quitting.
+./launch.sh: line 10: 12067 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 09:11:44.800] [info] Using configuration file config.jsonc
+[2024-07-30 09:11:44.802] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 09:11:44.802] [info] Using CSS file style.css
+[2024-07-30 09:11:44.813] [info] Hyprland IPC starting
+[2024-07-30 09:11:44.816] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 09:11:44.816] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 09:11:44.817] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 09:11:44.827] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 09:11:44.979] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 09:11:44.980] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 09:15:25.677] [info] Quitting.
+./launch.sh: line 10: 12182 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 09:15:28.178] [info] Using configuration file config.jsonc
+[2024-07-30 09:15:28.181] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 09:15:28.181] [info] Using CSS file style.css
+[2024-07-30 09:15:28.192] [info] Hyprland IPC starting
+[2024-07-30 09:15:28.195] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 09:15:28.195] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 09:15:28.196] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 09:15:28.205] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 09:15:28.368] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 09:15:28.368] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 09:17:31.415] [info] Quitting.
+./launch.sh: line 10: 12332 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 09:17:35.324] [info] Using configuration file config.jsonc
+[2024-07-30 09:17:35.327] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 09:17:35.327] [info] Using CSS file style.css
+[2024-07-30 09:17:35.337] [info] Hyprland IPC starting
+[2024-07-30 09:17:35.340] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 09:17:35.340] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 09:17:35.340] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 09:17:35.349] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 09:17:35.514] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 09:17:35.514] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 09:18:40.570] [info] Quitting.
+./launch.sh: line 10: 12442 Segmentation fault      (core dumped) waybar -c config.jsonc -s style.css
+waybar: no process found
+[2024-07-30 09:18:43.417] [info] Using configuration file config.jsonc
+[2024-07-30 09:18:43.420] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 09:18:43.420] [info] Using CSS file style.css
+[2024-07-30 09:18:43.430] [info] Hyprland IPC starting
+[2024-07-30 09:18:43.433] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 09:18:43.433] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 09:18:43.433] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 09:18:43.443] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 09:18:43.600] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 09:18:43.600] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+Error: "Unknown image format"
+Failed to set wallpaper: /home/idea/wallpaper/LICENSE
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+Error: "Unknown image format"
+Failed to set wallpaper: /home/idea/wallpaper/.git/shallow
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+/home/idea/.config/rofi/wall.sh: line 82: pywalfox: command not found
+[2024-07-30 09:36:57.529] [info] Reloading...
+[2024-07-30 09:36:57.543] [info] Using configuration file config.jsonc
+[2024-07-30 09:36:57.545] [info] Using CSS file style.css
+[2024-07-30 09:36:57.574] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 09:36:57.574] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 09:36:57.575] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 09:36:57.602] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 09:36:57.727] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 09:36:57.727] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+Terminated
+waybar: no process found
+[2024-07-30 10:55:37.530] [info] Using configuration file config.jsonc
+[2024-07-30 10:55:37.553] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 10:55:37.553] [info] Using CSS file style.css
+[2024-07-30 10:55:37.563] [info] Hyprland IPC starting
+[2024-07-30 10:55:37.567] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 10:55:37.567] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 10:55:37.567] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 10:55:37.577] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 10:55:39.684] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 10:55:39.684] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 10:57:53.261] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-30 10:57:53.281] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 10:57:53.281] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 10:58:00.368] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-30 10:58:00.385] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 10:58:00.385] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 10:58:17.500] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-30 10:58:17.515] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 10:58:17.515] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 10:58:51.617] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-07-30 10:58:51.634] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 10:58:51.635] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 10:59:00.230] [info] Reloading...
+[2024-07-30 10:59:00.250] [info] Using configuration file config.jsonc
+[2024-07-30 10:59:00.251] [info] Using CSS file style.css
+[2024-07-30 10:59:00.274] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 10:59:00.274] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 10:59:00.275] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 10:59:00.293] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 10:59:00.422] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 10:59:00.422] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+[2024-07-30 10:59:20.648] [info] Reloading...
+[2024-07-30 10:59:20.681] [info] Using configuration file config.jsonc
+[2024-07-30 10:59:20.681] [info] Using CSS file style.css
+[2024-07-30 10:59:20.711] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 10:59:20.712] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 10:59:20.712] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 10:59:20.722] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 10:59:20.837] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 10:59:20.837] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+Terminated
+waybar: no process found
+[2024-07-30 11:03:52.320] [info] Using configuration file config.jsonc
+[2024-07-30 11:03:52.322] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2024-07-30 11:03:52.322] [info] Using CSS file style.css
+[2024-07-30 11:03:52.355] [info] Hyprland IPC starting
+[2024-07-30 11:03:52.359] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 11:03:52.359] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 11:03:52.359] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 11:03:52.368] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 11:03:52.532] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 11:03:52.532] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37mmountain-winter-sun.jpg[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Generating a colorscheme.
+[[1;32mI[0m] [1;31mcolors[0m: Using wal backend.
+[[1;33mW[0m] [1;31mwal[0m: magick convert failed, using only magick
+[[1;32mI[0m] [1;31mcolors[0m: Generation complete.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+/home/idea/.config/rofi/wall.sh: line 82: pywalfox: command not found
+[2024-07-30 11:04:54.771] [info] Reloading...
+[2024-07-30 11:04:54.779] [info] Using configuration file config.jsonc
+[2024-07-30 11:04:54.780] [info] Using CSS file style.css
+[2024-07-30 11:04:54.799] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 11:04:54.799] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 11:04:54.799] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 11:04:54.819] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 11:04:54.939] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 11:04:54.939] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37mno-mans-land.jpg[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Generating a colorscheme.
+[[1;32mI[0m] [1;31mcolors[0m: Using wal backend.
+[[1;33mW[0m] [1;31mwal[0m: magick convert failed, using only magick
+[[1;32mI[0m] [1;31mcolors[0m: Generation complete.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+/home/idea/.config/rofi/wall.sh: line 82: pywalfox: command not found
+[2024-07-30 11:28:16.326] [info] Reloading...
+[2024-07-30 11:28:16.343] [info] Using configuration file config.jsonc
+[2024-07-30 11:28:16.345] [info] Using CSS file style.css
+[2024-07-30 11:28:16.358] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 11:28:16.358] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 11:28:16.358] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 11:28:16.373] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 11:28:16.509] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 11:28:16.509] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+Error: "Unknown image format"
+Failed to set wallpaper: /home/idea/wallpaper/.git/hooks/applypatch-msg.sample
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37mnordwall2.jpg[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Generating a colorscheme.
+[[1;32mI[0m] [1;31mcolors[0m: Using wal backend.
+[[1;33mW[0m] [1;31mwal[0m: magick convert failed, using only magick
+[[1;32mI[0m] [1;31mcolors[0m: Generation complete.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+/home/idea/.config/rofi/wall.sh: line 82: pywalfox: command not found
+[2024-07-30 11:44:45.083] [info] Reloading...
+[2024-07-30 11:44:45.105] [info] Using configuration file config.jsonc
+[2024-07-30 11:44:45.105] [info] Using CSS file style.css
+[2024-07-30 11:44:45.119] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 11:44:45.119] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 11:44:45.119] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 11:44:45.132] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 11:44:45.262] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 11:44:45.262] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37mcyber.jpg[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Generating a colorscheme.
+[[1;32mI[0m] [1;31mcolors[0m: Using wal backend.
+[[1;33mW[0m] [1;31mwal[0m: magick convert failed, using only magick
+[[1;33mW[0m] [1;31mwal[0m: Imagemagick couldn't generate a palette.
+[[1;33mW[0m] [1;31mwal[0m: Trying a larger palette size 16
+[[1;33mW[0m] [1;31mwal[0m: Imagemagick couldn't generate a palette.
+[[1;33mW[0m] [1;31mwal[0m: Trying a larger palette size 17
+[[1;32mI[0m] [1;31mcolors[0m: Generation complete.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+/home/idea/.config/rofi/wall.sh: line 82: pywalfox: command not found
+[2024-07-30 11:45:03.225] [info] Reloading...
+[2024-07-30 11:45:03.231] [info] Using configuration file config.jsonc
+[2024-07-30 11:45:03.232] [info] Using CSS file style.css
+[2024-07-30 11:45:03.261] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 11:45:03.261] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 11:45:03.261] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 11:45:03.271] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 11:45:03.417] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 11:45:03.417] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
+/home/idea/.config/rofi/wall.sh: line 26: check_swww_daemon: command not found
+find: warning: unrecognized escape `\x'
+find: warning: unrecognized escape `\x'
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37mgreen_sea.jpg[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Generating a colorscheme.
+[[1;32mI[0m] [1;31mcolors[0m: Using wal backend.
+[[1;33mW[0m] [1;31mwal[0m: magick convert failed, using only magick
+[[1;32mI[0m] [1;31mcolors[0m: Generation complete.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+/home/idea/.config/rofi/wall.sh: line 82: pywalfox: command not found
+[2024-07-30 11:46:53.084] [info] Reloading...
+[2024-07-30 11:46:53.100] [info] Using configuration file config.jsonc
+[2024-07-30 11:46:53.102] [info] Using CSS file style.css
+[2024-07-30 11:46:53.134] [info] Loading persistent workspaces from Waybar config
+[2024-07-30 11:46:53.134] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-07-30 11:46:53.134] [warning] module : Unknown module: 
+sh: line 1: waybar-module-pacman-updates: command not found
+[2024-07-30 11:46:53.157] [error] updates stopped unexpectedly, is it endless?
+[2024-07-30 11:46:53.279] [warning] Requested height: 30 is less than the minimum height: 32 required by the modules
+[2024-07-30 11:46:53.279] [info] Bar configured (width: 1366, height: 32) for output: eDP-1
