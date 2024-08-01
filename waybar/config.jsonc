@@ -15,7 +15,7 @@
     ],
     "modules-right": [
         "custom/wall",
-        "custom/updates",
+        "custom/weather",
         "cpu",
         "memory",
         "pulseaudio",
@@ -175,6 +175,6 @@ oth": "{volume}% {icon} {format_source}",
     "tooltip": false,
     "on-click": "shutdown now"
 },
-  },
+ },
 
 

@@ -206,9 +206,9 @@ window#waybar.hidden {
     border-radius: 15px;
     margin:2px;
 }
-#custom-waybar-theme {
-     background: @color5;
-     color: #000000;
+#custom-weather {
+     background: @background;
+     color: @color5;
      border-radius: 15px;
      margin:4px;
 }
@@ -242,3 +242,4 @@ window#waybar.hidden {
   border-radius: 15px;
   margin: 4px;
 }
+
